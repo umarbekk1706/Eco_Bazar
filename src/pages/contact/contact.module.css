@@ -1,0 +1,29 @@
+.contact{
+    padding: 100px 0;
+}
+.contact h1 {margin-bottom: 50px;
+    text-align: center;
+    color: #0f172a;
+}
+.adress{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly ;
+}
+.adress_card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+.adress_card h3{
+  color: #111827;
+}
+@media (max-width: 750px) {
+.adress{
+    margin-left: 0;
+   flex-direction: column;
+   gap: 50px;
+}
+}

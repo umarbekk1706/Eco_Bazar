@@ -1,0 +1,47 @@
+.not_found {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0fdf4; /* eco light green background */
+  color: #166534; /* dark green text */
+  padding: 20px;
+  text-align: center;
+}
+
+.not_found h1:first-child {
+  font-size: 100px;
+  font-weight: bold;
+  margin: 0;
+  color: #22c55e; /* bold green for 404 */
+}
+
+.not_found h1:last-child {
+  font-size: 32px;
+  margin-top: 10px;
+}
+
+.not_found p {
+  font-size: 18px;
+  color: #4b5563;
+  margin: 20px 0;
+}
+
+.not_found img {
+  max-width: 300px;
+  margin: 30px 0;
+}
+
+.not_found a {
+  text-decoration: none;
+  background-color: #16a34a;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+}
+
+.not_found a:hover {
+  background-color: #15803d;
+}

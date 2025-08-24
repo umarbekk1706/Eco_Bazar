@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "name": "Red Chili",
+    "price": 14.99,
+    "oldPrice": null,
+    "category": "Vegetables",
+    "image": "/images/red-chili.jpg",
+    "rating": 4.5,
+    "status": "available"
+  },
+  {
+    "id": 2,
+    "name": "Big Potatoes",
+    "price": 14.99,
+    "oldPrice": null,
+    "category": "Vegetables",
+    "image": "/images/potatoes.jpg",
+    "rating": 4.2,
+    "status": "available"
+  },
+  {
+    "id": 3,
+    "name": "Chinese Cabbage",
+    "price": 14.99,
+    "oldPrice": null,
+    "category": "Vegetables",
+    "image": "/images/chinese-cabbage.jpg",
+    "rating": 4.7,
+    "status": "available"
+  },
+  {
+    "id": 4,
+    "name": "Corn",
+    "price": 14.99,
+    "oldPrice": 20.99,
+    "category": "Vegetables",
+    "image": "/images/Corn.jpg",
+    "rating": 4.3,
+    "status": "available"
+  },
+  {
+    "id": 5,
+    "name": "Red Tomato",
+    "price": 14.99,
+    "oldPrice": null,
+    "category": "Vegetables",
+    "image": "/images/tomato.jpg",
+    "rating": 4.6,
+    "status": "available"
+  },
+  {
+    "id": 6,
+    "name": "Eggplant",
+    "price": 14.99,
+    "oldPrice": null,
+    "category": "Vegetables",
+    "image": "/images/eggplant.jpg",
+    "rating": 4.4,
+    "status": "available"
+  },
+  {
+    "id": 7,
+    "name": "Fresh Cauliflower ",
+    "price": 14.99,
+    "oldPrice": null,
+    "category": "Vegetables",
+    "image": "https://static.vecteezy.com/system/resources/thumbnails/029/720/262/small_2x/cauliflower-transparent-background-png.png",
+    "rating": 4.5,
+    "status": "available"
+  },
+  {
+    "id": 8,
+    "name": "Green Apple",
+    "price": 14.99,
+    "oldPrice": null,
+    "category": "Fruits",
+    "image": "/images/green-apple.jpg",
+    "rating": 4.8,
+    "status": "available"
+  },
+  {
+    "id": 9,
+    "name": "Fresh Mango",
+    "price": 14.99,
+    "oldPrice": null,
+    "category": "Fruits",
+    "image": "/images/mango.jpg",
+    "rating": 4.9,
+    "status": "available"
+  },
+  {
+    "id": 10,
+    "name": "Green Capsicum",
+    "price": 14.99,
+    "oldPrice": null,
+    "category": "Vegetables",
+    "image": "/images/green-capsicum.jpg",
+    "rating": 4.3,
+    "status": "available"
+  },
+  {
+    "id": 11,
+    "name": "Green Chili",
+    "price": 14.99,
+    "oldPrice": null,
+    "category": "Vegetables",
+    "image": "/images/green-chili.jpg",
+    "rating": 4.4,
+    "status": "available"
+  },
+  {
+    "id": 12,
+    "name": "Green Cucumber",
+    "price": 14.99,
+    "oldPrice": 20.99,
+    "category": "Vegetables",
+    "image": "/images/cucumber.jpg",
+    "rating": 4.6,
+    "status": "sale"
+  },
+  {
+    "id": 13,
+    "name": "Green Lettuce",
+    "price": 14.99,
+    "oldPrice": null,
+    "category": "Vegetables",
+    "image": "/images/lettuce.jpg",
+    "rating": 4.7,
+    "status": "available"
+  },
+  {
+    "id": 14,
+    "name": "Ladies Finger (Fresh)",
+    "price": 14.99,
+    "oldPrice": null,
+    "category": "Vegetables",
+    "image": "/images/ladies-finger-fresh.jpg",
+    "rating": 4.3,
+    "status": "available"
+  },
+  {
+    "id": 15,
+    "name": "Red Capsicum",
+    "price": 14.99,
+    "oldPrice": null,
+    "category": "Vegetables",
+    "image": "/images/red-capsicum.jpg",
+    "rating": 4.5,
+    "status": "available"
+  }
+]
