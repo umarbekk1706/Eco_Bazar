@@ -3,7 +3,7 @@ import Home from "../pages/home/Home";
 import Shop from "../pages/shop/Shop";
 import About from "../pages/about/About";
 import Contact from "../pages/contact/Contact";
-import Not_found from "../pages/not_found/not_found";
+import Not_found from "../pages/not_found/Not_found";
 
 function Root() {
   return (
