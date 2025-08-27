@@ -65,7 +65,7 @@
     "price": 14.99,
     "oldPrice": null,
     "category": "Vegetables",
-    "image": "https://static.vecteezy.com/system/resources/thumbnails/029/720/262/small_2x/cauliflower-transparent-background-png.png",
+    "image": "/images/cauliflower.jpg",
     "rating": 4.5,
     "status": "available"
   },

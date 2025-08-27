@@ -87,6 +87,13 @@ li .link{
   color: grey;
   text-decoration: none;
 }
+.shop_link{
+  text-decoration: none;
+   color: black;
+}
+.shop_link:hover{
+  color: #00b207;
+}
 
 .nav_bar ul li :hover {
   color: white;
@@ -156,6 +163,7 @@ li .link{
 @media (max-width: 480px) {
   .main_header img {
     height: 30px;
+    margin: 0 10px;
   }
 
   .top_header {

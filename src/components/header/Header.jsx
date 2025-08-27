@@ -22,7 +22,7 @@ function Header() {
       <i className="fa-solid fa-heart"></i>
     </button>
           <p>|</p>
-          <i className="fa-solid fa-bag-shopping"></i>
+         <Link to="/shopping_cart" className={styles.shop_link}><i className="fa-solid fa-cart-shopping"></i></Link>
           <i
             className={`fa-solid fa-bars ${styles.hamburger}`}
             onClick={() => setMenuOpen(!menuOpen)}

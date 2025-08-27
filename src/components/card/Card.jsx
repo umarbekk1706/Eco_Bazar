@@ -1,5 +1,5 @@
-import styles from "./card.module.css";
-import { useEffect,useState } from "react";
+import { useEffect, useState } from "react";
+import styles from "./Card.module.css";
 
 function Card() {
   const [products, setProducts] = useState([]);
@@ -9,32 +9,48 @@ function Card() {
       .then((res) => res.json())
       .then((data) => setProducts(data));
   }, []);
+
+ 
+  const addToCart = (product) => {
+    let cart = JSON.parse(localStorage.getItem("cart")) || [];
+
+
+    const existing = cart.find((item) => item.id === product.id);
+    if (existing) {
+     
+      cart = cart.map((item) =>
+        item.id === product.id ? { ...item, quantity: item.quantity + 1 } : item
+      );
+    } else {
+
+      cart.push({ ...product, quantity: 1 });
+    }
+
+    localStorage.setItem("cart", JSON.stringify(cart));
+    alert(`${product.name} added to cart`);
+  };
+
   return (
-     <div className={styles.product_card}>
-    {products.length === 0 ? (
-      <p>Loading products...</p>
-    ) : (
-      products.map((item) => (
-        <div className={styles.card}>
-
-
-        <div key={item.id} className="border rounded-lg p-3 shadow">
-          <img src={item.image} alt={item.name} className={styles.product_img} />
-          <h2 className={styles.product_name}>{item.name}</h2>
-          <p className={styles.product_category}>{item.category}</p>
-          <div className={styles.buy_box}>
-<p className={styles.prise}>${item.price}</p>
-          <button className={styles.buy_btn}>
-            <i className="fa-solid fa-bag-shopping"></i>
-          </button>
+    <div className={styles.productCard}>
+      {products.length === 0 ? (
+        <p>Loading products...</p>
+      ) : (
+        products.map((item) => (
+          <div key={item.id} className={styles.card}>
+            <img src={item.image} alt={item.name} className={styles.productImg} />
+            <h2 className={styles.productName}>{item.name}</h2>
+            <p className={styles.productCategory}>{item.category}</p>
+            <div className={styles.buyBox}>
+              <p className={styles.price}>${item.price}</p>
+              <button className={styles.buyBtn} onClick={() => addToCart(item)}>
+                Add to Cart
+              </button>
+            </div>
           </div>
-          
-        </div>
-                </div>
-      ))
-    )}
-  </div>
-  )
+        ))
+      )}
+    </div>
+  );
 }
 
 export default Card;

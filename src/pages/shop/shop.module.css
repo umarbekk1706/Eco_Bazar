@@ -9,6 +9,16 @@ main {
   justify-content: center; 
   padding: 30px 0;
 }
+.cart_link {
+  text-align: center;
+}
+.cart_link a{
+  text-decoration: none;
+  color: black;
+}
+.cart_link a:hover{
+  color: #00b207;
+}
 
 
 @media (max-width: 768px) {
@@ -17,5 +27,9 @@ main {
     align-items: center;
     gap: 15px;
   }
+  .cart_link a{
+    margin-left: 10px;
+  font-size: 18px;
+}
 }
 

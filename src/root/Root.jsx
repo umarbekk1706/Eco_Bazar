@@ -4,6 +4,7 @@ import Shop from "../pages/shop/Shop";
 import About from "../pages/about/About";
 import Contact from "../pages/contact/Contact";
 import Not_found from "../pages/not_found/Not_found";
+import Shopping_cart from "../shopping_cart/Shopping_cart";
 
 function Root() {
   return (
@@ -13,6 +14,7 @@ function Root() {
            <Route path="/shop" element={<Shop/>}/>
            <Route path="/about" element={<About/>}/>
            <Route path="/contact" element={<Contact/>}/>
+           <Route path="/shopping_cart" element={<Shopping_cart/>}/>
            <Route path="*" element={<Not_found/>}/> 
         </Routes>
     </div>
